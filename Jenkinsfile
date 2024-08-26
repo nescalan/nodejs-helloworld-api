@@ -17,5 +17,12 @@ pipeline {
                 sh 'npm test'
             }
         }
+        
+        stage('EOF') {
+            steps {
+                echo "Fin de la Prueba" 
+            }
+        }
+
     }
 }
