@@ -16,7 +16,6 @@ pipeline {
                 echo "Ejecutar npm test push" 
                 sh 'npm test'
             }
-        } 
-
+        }
     }
 }
