@@ -16,16 +16,7 @@ pipeline {
                 echo "Ejecutar npm test push" 
                 sh 'npm test'
             }
-        }
-        
-
-        stage('Test2 - EOF') {
-            steps {
-                echo "Resuelto"
-            }
-        }
-        
-  
+        } 
 
     }
 }
