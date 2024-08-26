@@ -18,6 +18,13 @@ pipeline {
             }
         }
         
+
+        stage('Test2 - EOF') {
+            steps {
+                echo "Resuelto"
+            }
+        }
+        
   
 
     }
