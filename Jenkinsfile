@@ -18,11 +18,7 @@ pipeline {
             }
         }
         
-        stage('EOF') {
-            steps {
-                echo "Fin de la Prueba" 
-            }
-        }
+  
 
     }
 }
